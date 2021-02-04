@@ -1,17 +1,17 @@
 # Hasti Gheibi Dehnashi Homepage
 This repository contains the source code for the homepage of my personal website. Inside this repository you will find the following
 
-*scripts
+* scripts
 
-*styles
+* styles
 
-*index.html
+* index.html
 
-*package.json
+* package.json
 
-*package-lock.json
+* package-lock.json
 
-*eslintrc.js
+* eslintrc.js
 
 
 **index.html** file contains the content of my homepage
