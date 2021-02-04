@@ -2,10 +2,15 @@
 This repository contains the source code for the homepage of my personal website. Inside this repository you will find the following
 
 *scripts
+
 *styles
+
 *index.html
+
 *package.json
+
 *package-lock.json
+
 *eslintrc.js
 
 
