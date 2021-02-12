@@ -1,26 +1,54 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('/styles/fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('/styles/fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('/styles/fonts/playfairdisplay-variablefont_wght-webfont.woff2') format('woff2'),
+         url('/styles/fonts/playfairdisplay-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppins_light';
+    src: url('/styles/fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('/styles/fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+
+}
 header {
-	padding: 10px;
-	margin: 5px;
+	margin-top: 20px;
 	background-color: #ffe6e6;
 }
 header .row {
 	display: flex;
-	align-items: center;
-	padding: 5px;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-between;
 }
 header h1 {
-	justify-content: flex-start;
-	font-weight: 600;
-	padding: 5px;
+	display: flex;
+	padding-top: 8px;
+	font-family: 'poppins';
+	justify-content: center;
 	margin: 0;
 }
 header nav {
 	display: flex;
+}
+header .nav-right {
 	justify-content: flex-end;
-	padding: 5px;
-	margin: 0;
+}
+header .nav-left {
+	justify-content: flex-start;
 }
 header p {
-	padding: 0 20px;
-	margin: 0;
+	font-family: 'playfair_displayregular';
+	padding: 0 10px;
+	font-size: 100%;
 }

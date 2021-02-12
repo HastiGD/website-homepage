@@ -1,0 +1,41 @@
+
+@font-face {
+    font-family: 'poppins_bold';
+    src: url('/styles/fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('/styles/fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppins_extralight';
+    src: url('/styles/fonts/poppins-extralight-webfont.woff2') format('woff2'),
+         url('/styles/fonts/poppins-extralight-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppins_light';
+    src: url('/styles/fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('/styles/fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppins_medium';
+    src: url('/styles/fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('/styles/fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('/styles/fonts/playfairdisplay-variablefont_wght-webfont.woff2') format('woff2'),
+         url('/styles/fonts/playfairdisplay-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
