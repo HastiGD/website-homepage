@@ -1,54 +1,86 @@
 @font-face {
-    font-family: 'poppins';
-    src: url('/styles/fonts/poppins-medium-webfont.woff2') format('woff2'),
-         url('/styles/fonts/poppins-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: "poppins";
+	src: url("/styles/fonts/poppins-medium-webfont.woff2") format("woff2"),
+		url("/styles/fonts/poppins-medium-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
-    font-family: 'playfair_displayregular';
-    src: url('/styles/fonts/playfairdisplay-variablefont_wght-webfont.woff2') format('woff2'),
-         url('/styles/fonts/playfairdisplay-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	font-family: "playfair_displayregular";
+	src: url("/styles/fonts/playfairdisplay-variablefont_wght-webfont.woff2")
+			format("woff2"),
+		url("/styles/fonts/playfairdisplay-variablefont_wght-webfont.woff")
+			format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
-    font-family: 'poppins_light';
-    src: url('/styles/fonts/poppins-light-webfont.woff2') format('woff2'),
-         url('/styles/fonts/poppins-light-webfont.woff') format('woff');
-    font-weight: lighter;
-    font-style: normal;
-
+	font-family: "poppins_light";
+	src: url("/styles/fonts/poppins-light-webfont.woff2") format("woff2"),
+		url("/styles/fonts/poppins-light-webfont.woff") format("woff");
+	font-weight: lighter;
+	font-style: normal;
+}
+body {
+	background-color: #fcf6fa;
 }
 header {
-	margin-top: 20px;
-	background-color: #ffe6e6;
+	margin-top: 5px;
 }
 header .row {
 	display: flex;
 	flex-direction: row;
-	align-items: flex-end;
+	align-items: flex-center;
 	justify-content: space-between;
 }
 header h1 {
 	display: flex;
-	padding-top: 8px;
-	font-family: 'poppins';
+	padding-top: 5px;
+	font-family: "poppins";
 	justify-content: center;
 	margin: 0;
+	color: black;
 }
 header nav {
 	display: flex;
 }
-header .nav-right {
-	justify-content: flex-end;
-}
 header .nav-left {
 	justify-content: flex-start;
+	align-items: center;
 }
-header p {
-	font-family: 'playfair_displayregular';
-	padding: 0 10px;
-	font-size: 100%;
+header a.nav-link {
+	font-family: "playfair_displayregular";
+	font-size: 20px;
+	padding-top: 10px;
+	padding-right: 15px;
+	margin-left: 5px;
+	color: black;
+}
+header .nav-right {
+	justify-content: flex-end;
+	align-items: center;
+}
+header a.button {
+	padding-top: 10px;
+	padding-left: 15px;
+	margin: 5px 5px 10px 15px;
+	height: 27px;
+}
+header .github {
+	background-image: url("/images/github_mark.png");
+	width: 27px;
+}
+header .linkedin {
+	background-image: url("/images/linkedin_mark.png");
+	width: 32px;
+}
+header .twitter {
+	background-image: url("/images/twitter_mark.png");
+	width: 33px;
+}
+
+.jumbotron {
+	display: flex;
+	background-color: #d79ed8;
+	height: 500px;
 }
