@@ -33,10 +33,10 @@ header .row {
 	align-items: flex-center;
 	justify-content: space-between;
 }
-header h1 {
+header h2 {
 	display: flex;
 	padding-top: 5px;
-	font-family: "poppins";
+	font-family: "poppins_light";
 	justify-content: center;
 	margin: 0;
 	color: black;
@@ -50,10 +50,9 @@ header .nav-left {
 }
 header a.nav-link {
 	font-family: "playfair_displayregular";
-	font-size: 20px;
+	font-size: 18px;
 	padding-top: 10px;
 	padding-right: 15px;
-	margin-left: 5px;
 	color: black;
 }
 header .nav-right {
@@ -78,9 +77,32 @@ header .twitter {
 	background-image: url("/images/twitter_mark.png");
 	width: 33px;
 }
-
-.jumbotron {
+section.jumbotron {
 	display: flex;
 	background-color: #d79ed8;
-	height: 500px;
+	height: auto;
+	padding: 2em;
+	align-items: center;
+}
+section header {
+	display: flex;
+	padding-top: 20px;
+	font-family: "poppins";
+	align-items: center;
+}
+section section .row {
+	margin-top: 20px;
+	align-items: flex-start;
+	justify-content: center;
+}
+section section img.picture {
+	width: 15em;
+}
+section section .content h2 {
+	font-family: "playfair_displayregular";
+	padding: 0 10px;
+}
+section section .content p {
+	font-family: "poppins_light";
+	padding: 0 10px;
 }
