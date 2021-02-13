@@ -79,30 +79,49 @@ header .twitter {
 }
 section.jumbotron {
 	display: flex;
-	background-color: #d79ed8;
 	height: auto;
 	padding: 2em;
 	align-items: center;
 }
+.jumbotron.about {
+	background-color: #d79ed8;
+}
+.jumbotron.skills {
+}
 section header {
 	display: flex;
-	padding-top: 20px;
+	padding: 1em;
 	font-family: "poppins";
-	align-items: center;
+	text-align: center;
 }
 section section .row {
-	margin-top: 20px;
-	align-items: flex-start;
-	justify-content: center;
+	margin: 2em;
 }
-section section img.picture {
-	width: 15em;
+section section img.picture.me {
+	height: 20em;
+	width: auto;
+}
+section section img.picture.workspace {
+	width: 25em;
+	height: auto;
+}
+section section .content {
+	align-items: flex-start;
+	font-family: "poppins_light";
+	margin: 0 1em 0 0;
+	color: black;
 }
 section section .content h2 {
 	font-family: "playfair_displayregular";
-	padding: 0 10px;
 }
 section section .content p {
-	font-family: "poppins_light";
-	padding: 0 10px;
+	text-align: justify;
+}
+section section .content ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+section section .content li {
+	margin: 1em 0 0 0;
 }
