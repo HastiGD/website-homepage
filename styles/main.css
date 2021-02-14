@@ -23,7 +23,10 @@
 }
 body {
 	background-color: #fcf6fa;
+	font-size: 1rem;
 }
+
+/* HEADER */
 header {
 	margin-top: 5px;
 }
@@ -77,16 +80,14 @@ header .twitter {
 	background-image: url("/images/twitter_mark.png");
 	width: 33px;
 }
+
+/* BODY */
 section.jumbotron {
 	display: flex;
 	height: auto;
-	padding: 2em;
+	padding: 1em;
 	align-items: center;
-}
-.jumbotron.about {
-	background-color: #d79ed8;
-}
-.jumbotron.skills {
+	justify-content: center;
 }
 section header {
 	display: flex;
@@ -97,25 +98,18 @@ section header {
 section section .row {
 	margin: 2em;
 }
-section section img.picture.me {
-	height: 20em;
-	width: auto;
-}
-section section img.picture.workspace {
-	width: 25em;
-	height: auto;
-}
 section section .content {
-	align-items: flex-start;
+	align-items: center;
 	font-family: "poppins_light";
 	margin: 0 1em 0 0;
 	color: black;
 }
-section section .content h2 {
+section section .content h2,
+h5 {
 	font-family: "playfair_displayregular";
 }
 section section .content p {
-	text-align: justify;
+	/*text-align: justify;*/
 }
 section section .content ul {
 	list-style-type: none;
@@ -124,4 +118,46 @@ section section .content ul {
 }
 section section .content li {
 	margin: 1em 0 0 0;
+}
+
+/* BODY -- ABOUT */
+section.jumbotron.about {
+	background-color: #fcedf7;
+}
+section section img.picture.me {
+	height: 20em;
+	width: auto;
+}
+
+/* BODY -- COURSES */
+section.jumbotron.courses {
+	background-image: url("/images/flowers.jpg");
+}
+section.courses h2,
+h5 {
+	font-family: "playfair_displayregular";
+	text-align: center;
+}
+section.courses .card {
+	background-color: #e3bad5;
+	border: none;
+	font-family: "poppins_light";
+	padding: 0;
+}
+section.courses img.card-img-top {
+	height: auto;
+	width: 30%;
+	border: none;
+	align-self: center;
+	padding-top: 1em;
+}
+
+/* BODY -- SKILLS */
+section.jumbotron.skills {
+	background-color: #fcedf7;
+	background-size: cover;
+}
+section section img.picture.workspace {
+	width: 25em;
+	height: auto;
 }
