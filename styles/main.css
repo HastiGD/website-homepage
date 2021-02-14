@@ -24,6 +24,7 @@
 body {
 	background-color: #fcf6fa;
 	font-size: 1rem;
+	font-family: "poppins_light";
 }
 
 /* HEADER */
@@ -39,10 +40,8 @@ header .row {
 header h2 {
 	display: flex;
 	padding-top: 5px;
-	font-family: "poppins_light";
 	justify-content: center;
 	margin: 0;
-	color: black;
 }
 header nav {
 	display: flex;
@@ -96,45 +95,40 @@ section header {
 	text-align: center;
 }
 section section .row {
+	display: flex;
 	margin: 2em;
 }
-section section .content {
+section section p {
 	align-items: center;
-	font-family: "poppins_light";
 	margin: 0 1em 0 0;
-	color: black;
 }
-section section .content h2,
+section section h2,
 h5 {
 	font-family: "playfair_displayregular";
 }
-section section .content p {
-	/*text-align: justify;*/
-}
-section section .content ul {
+section section ul {
 	list-style-type: none;
-	margin: 0;
 	padding: 0;
 }
-section section .content li {
-	margin: 1em 0 0 0;
+section section li {
+	margin: 0.25em 0 0 0;
 }
-
 /* BODY -- ABOUT */
-section.jumbotron.about {
+section.jumbotron.about,
+section.jumbotron.bio {
 	background-color: #fcedf7;
+	text-align: justify;
+	align-items: center;
 }
-section section img.picture.me {
-	height: 20em;
-	width: auto;
-}
-
 /* BODY -- COURSES */
 section.jumbotron.courses {
 	background-image: url("/images/flowers.jpg");
 }
-section.courses h2,
-h5 {
+section.courses h2 {
+	display: flex;
+	justify-content: flex-end;
+}
+section.courses h5 {
 	font-family: "playfair_displayregular";
 	text-align: center;
 }
@@ -151,13 +145,20 @@ section.courses img.card-img-top {
 	align-self: center;
 	padding-top: 1em;
 }
-
 /* BODY -- SKILLS */
 section.jumbotron.skills {
 	background-color: #fcedf7;
 	background-size: cover;
 }
-section section img.picture.workspace {
-	width: 25em;
-	height: auto;
+section.skills {
+	align-items: flex-start;
+}
+section.skills img {
+	width: 100%;
+	transform: rotate(-40deg);
+	align-self: baseline;
+}
+/* BIO -- BODY */
+section.jumbotron.bio .strong {
+	font-family: "poppins";
 }
