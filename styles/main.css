@@ -26,7 +26,6 @@ body {
 	font-size: 1rem;
 	font-family: "poppins_light";
 }
-
 /* HEADER */
 header {
 	margin-top: 5px;
@@ -157,26 +156,31 @@ section.jumbotron.skills {
 section.skills {
 	align-items: flex-start;
 }
-section.skills img {
-	width: 100%;
-	transform: rotate(-40deg);
-	align-self: baseline;
-}
 section.skills div.skills {
 	background-image: url("/images/flowers_3.jpg");
 	max-width: 100%;
-	padding-bottom: 1.5em;
+	padding: 1em;
+}
+section.skills #watermelon {
+	margin-top: 1em;
+	width: 150px;
+	transform: rotate(-40deg);
 }
 /* BIO -- BODY */
 section.bio div.work-history {
 	background-image: url("/images/flowers_2.jpg");
 	max-width: 100%;
 	padding-bottom: 1.5em;
+	margin-top: 1em;
 }
-section.jumbotron.bio .strong {
+section.jumbotron .strong {
 	font-family: "poppins";
+	font-size: 20px;
 }
-section.contact img {
-	width: 100%;
-	transform: rotate(-40deg);
+section.contact form {
+	padding-top: 0.5em;
+}
+section.contact .form-group button {
+	background-color: #cf337d;
+	margin-top: 1em;
 }

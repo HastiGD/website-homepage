@@ -113,17 +113,32 @@
 			<div class="container">
 				<section>
 					<div class="row">
-						<div class="col-lg-10">
+						<div class="col-lg-6">
 							<h2>Contact</h2>
-							<p>I am currently working on my very first app,</p>
-						</div>
-						<div class="col-sm-2">
-							<div>
-								<img
-									src="images/watermelon.png"
-									alt="A picture of a watermelon"
-								/>
-							</div>
+							<form>
+								<div class="form-group">
+									<label for="emailInput">Email address</label>
+									<input
+										type="email"
+										class="form-control"
+										id="emailInput"
+										placeholder="name@example.com"
+									/>
+								</div>
+								<br class="form-group" />
+								<div class="form-group">
+									<label for="messageInput">Message</label>
+									<textarea
+										class="form-control"
+										id="messageInput"
+										rows="3"
+										placeholder="message"
+									></textarea>
+								</div>
+								<div class="form-group">
+									<button type="button" class="btn">Send</button>
+								</div>
+							</form>
 						</div>
 					</div>
 				</section>
