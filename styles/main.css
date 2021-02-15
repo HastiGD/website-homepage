@@ -126,7 +126,7 @@ section.jumbotron.bio {
 }
 /* BODY -- COURSES */
 section.jumbotron.courses {
-	background-image: url("/images/flowers.jpg");
+	background-image: url("https://hastigd.github.io/website-homepage/images/flowers.jpg");
 }
 section.courses h2 {
 	text-align: center;
