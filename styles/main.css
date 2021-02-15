@@ -1,7 +1,7 @@
 @font-face {
 	font-family: "poppins";
-	src: url("/styles/fonts/poppins-medium-webfont.woff2") format("woff2"),
-		url("/styles/fonts/poppins-medium-webfont.woff") format("woff");
+	src: url("fonts/poppins-medium-webfont.woff2") format("woff2"),
+		url("fonts/poppins-medium-webfont.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
 }
