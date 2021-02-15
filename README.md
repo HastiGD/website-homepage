@@ -8,7 +8,7 @@
 
 ### Deployment: My project is deployed on GitHub Pages [here](https://hastigd.github.io/website-homepage/index.html)
 
-### How to Install: See the installation guide for installing and running my website yourself
+### How to Install: See the installation guide for installing and running my website yourself [guide](https://github.com/HastiGD/website-homepage/blob/master/InstallGuide.pdf)
 
 ### Tech requirements: Node.js [download](https://nodejs.org/en/download/), and reload module [download](https://www.npmjs.com/package/reload) which I recommend you install with npm
 
