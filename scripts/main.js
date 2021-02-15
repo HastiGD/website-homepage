@@ -6,7 +6,6 @@ function ValidateEmail() {
 		email.value = "";
 		message.value = "";
 		alert("Message sent!");
-		// document.form1.text1.focus();
 		return true;
 	}
 	if (!email.value.match(mailformat)) {
