@@ -67,15 +67,15 @@ header a.button {
 	height: 27px;
 }
 header .github {
-	background-image: url("/images/github_mark.png");
+	background-image: url("/images/githubmark.png");
 	width: 27px;
 }
 header .linkedin {
-	background-image: url("/images/linkedin_mark.png");
+	background-image: url("/images/linkedinmark.png");
 	width: 32px;
 }
 header .twitter {
-	background-image: url("/images/twitter_mark.png");
+	background-image: url("/images/twittermark.png");
 	width: 33px;
 }
 
@@ -157,7 +157,7 @@ section.skills {
 	align-items: flex-start;
 }
 section.skills div.skills {
-	background-image: url("/images/flowers_3.jpg");
+	background-image: url("/images/flowers3.jpg");
 	max-width: 100%;
 	padding: 1em;
 }
@@ -168,7 +168,7 @@ section.skills #watermelon {
 }
 /* BIO -- BODY */
 section.bio div.work-history {
-	background-image: url("/images/flowers_2.jpg");
+	background-image: url("/images/flowers2.jpg");
 	max-width: 100%;
 	padding-bottom: 1.5em;
 	margin-top: 1em;
