@@ -161,7 +161,7 @@ section.skills {
 	align-items: flex-start;
 }
 section.skills div.skills {
-	background-image: url("https://hastigd.github.io/website-homepage/images/flowers3.jpg");
+	background-image: url("images/flowers3.jpg");
 	max-width: 100%;
 	padding: 1em;
 }
