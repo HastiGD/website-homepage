@@ -8,9 +8,9 @@
 
 ### Deployment: My project is deployed on GitHub Pages [here](https://hastigd.github.io/website-homepage/index.html)
 
-### How to Install:
+### How to Install: See the installation guide for installing and running my website yourself
 
-### Tech requirements: 
+### Tech requirements: Node.js [download](https://nodejs.org/en/download/), and reload module [download](https://www.npmjs.com/package/reload) which I recommend you install with npm
 
 #### This project was completed by me, Hasti, for my Web Development course which you can find [here](https://johnguerra.co/classes/webDevelopment_spring_2021/)
 
