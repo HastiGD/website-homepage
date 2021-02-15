@@ -1,18 +1,18 @@
 # Hasti Gheibi Dehnashi's Homepage
 
-### Project Objective: Create a personal website that can be used to showcase my accomplishments, skills, coursework, projects, and work history 
+## Objective: Create a personal website that can be used to showcase my accomplishments, skills, coursework, projects, and work history 
 
-### Tech requirements: Browser, 
+### Demonstration: In [this](https://youtu.be/IE_rhDV3S2I) YouTube video I show you how to access my website, and discuss some of the features
+
+### Presentation: Click [here](https://docs.google.com/presentation/d/1OGE9sS95P3jA4rN7oxu_nlvBJbKE0VX6Ya8ZiET5elg/edit?usp=sharing) to view the Google Slides presentation
+
+### Deployment: My project is deployed on GitHub Pages [here](https://hastigd.github.io/website-homepage/index.html)
 
 ### How to Install:
 
-### Video Demo: Watch me give a video demonstration [here](https://youtu.be/IE_rhDV3S2I)
+### Tech requirements: 
 
-### Presentation: You may view the presentation Google Slides [here](https://docs.google.com/presentation/d/1OGE9sS95P3jA4rN7oxu_nlvBJbKE0VX6Ya8ZiET5elg/edit?usp=sharing) 
-
-### My project is deployed on GitHub Pages [here](https://hastigd.github.io/website-homepage/index.html). 
-
-This project was completed by me, Hasti, for my Web Development course which you can find [here](https://johnguerra.co/classes/webDevelopment_spring_2021/)
+#### This project was completed by me, Hasti, for my Web Development course which you can find [here](https://johnguerra.co/classes/webDevelopment_spring_2021/)
 
 
 This repository contains the source code for the homepage of my personal website. Inside this repository you will find the following
